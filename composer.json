@@ -1,0 +1,32 @@
+{
+    "name": "panakour/analytics",
+    "description": "Get whatever data you want from google analytics.",
+    "keywords": ["laravel", "analytics"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Panagiots Koursaris",
+            "email": "panakourweb@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^8.0",
+        "illuminate/support": "~5.5.0|~5.6.0|~5.7.0|~5.8.0",
+        "google/apiclient": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Panakour\\Analytics\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Panakour\\Analytics\\GoogleAnalyticsServiceProvider"
+            ],
+            "aliases": {
+                "Analytics": "Panakour\\Analytics\\Facades\\Analytics"
+            }
+        }
+    }
+}
