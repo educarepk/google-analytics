@@ -3,7 +3,7 @@
 namespace Educare\Analytics;
 
 use Educare\Analytics\Builder\AnalyticsBuilder;
-use Educare\Analytics\Analytics\Builder\Director;
+use Educare\Analytics\Builder\Director;
 
 class Analytics implements \Educare\Analytics\Contracts\Analytics
 {
