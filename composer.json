@@ -1,12 +1,12 @@
 {
-    "name": "panakour/analytics",
+    "name": "educare/analytics",
     "description": "Get whatever data you want from google analytics.",
     "keywords": ["laravel", "analytics"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Panagiots Koursaris",
-            "email": "panakourweb@gmail.com"
+            "name": "Shahzad Ahmad",
+            "email": "shahzadahmad7786b@gmail.com"
         }
     ],
     "require": {
@@ -16,16 +16,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Panakour\\Analytics\\": "src/"
+            "Educare\\Analytics\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Panakour\\Analytics\\GoogleAnalyticsServiceProvider"
+                "Educare\\Analytics\\GoogleAnalyticsServiceProvider"
             ],
             "aliases": {
-                "Analytics": "Panakour\\Analytics\\Facades\\Analytics"
+                "Analytics": "Educare\\Analytics\\Facades\\Analytics"
             }
         }
     }
